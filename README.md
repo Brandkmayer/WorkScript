@@ -2,6 +2,7 @@
 Repository for various scripts use in our lab projects
 
 Command line executable scripts
+    
     - Bulk file renamer: Rename photos in the immediate folder as well as photos found in sub-folders within the primary folder without changing folder names.
     
     - Bulk File consolidation: Copies photo files from a folder's sub-folder and consolidates them in one folder
