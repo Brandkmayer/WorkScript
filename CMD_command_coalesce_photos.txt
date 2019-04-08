@@ -1,0 +1,9 @@
+cd /d "D:\cameratraps\wildcat\timelapsesouth\WCS_2017"
+for /r %d in (*) do copy "%d" "D:\MLphotos\Wildcat_17\WCS_Total_Photos"
+
+Open command line.
+
+First line: change directory to the folder containing multiple 
+folders of photos you want to coalesce.
+
+Second line:  The folder you want photos to be copied into. 

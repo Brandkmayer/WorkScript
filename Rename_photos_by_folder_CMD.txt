@@ -1,0 +1,27 @@
+###Bulk rename Command script
+## Brandon Mayer
+# Invoke utility in comannd line
+BRC.exe
+
+# Pathway to the program
+C:\Users\BrandonMayer\Documents\Bulk_Rename_Utility\BRC\BRC64.exe 
+# Assign directory
+/DIR:"D:\cameratraps\wildcat\timelapsesouth\WCS_2018_foldered"
+# Prevents the any changes to folder names
+/NOFOLDERS
+# Command to go into folders in directory folder
+/RECURSIVE
+# Remove name
+/REMOVENAME  
+# Apend date "modified data" option, prefix,"-","-","9" = YearMonthDayHourMinuteSecond option 
+/APPENDDATE:M:P:-:-:9
+# New filename is separated by "-" so this eliminates it
+/STRIPSYMBOLS 
+# needed to complet the command
+/EXECUTE
+
+Example
+
+C:\Users\BrandonMayer\Documents\Bulk_Rename_Utility\BRC\BRC64.exe /DIR:"D:\Test" /NOFOLDERS /RECURSIVE /REMOVENAME /APPENDDATE:M:P:-:-:9 /STRIPSYMBOLS /EXECUTE
+
+C:\Users\BrandonMayer\Documents\Bulk_Rename_Utility\BRC\BRC64.exe /DIR:"D:\MLphotos\Wildcat_18\WCS_Analysis_2018" /NOFOLDERS /RECURSIVE /REMOVENAME /APPENDDATE:M:P:-:-:9 /STRIPSYMBOLS /EXECUTE
